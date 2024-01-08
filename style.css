@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+    font-family: gilroy;
+}
+#page1{
+    height: 130vh;
+    width: 100%;
+    position: relative;
+}
+#nav{
+    height: 8vh;
+    width: 100%;
+    background-color: #f49702;
+    display: flex;
+
+}
+#l-nav{
+    height: 100%;
+    width: 50%;
+    background-color: #47f40296;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#r-nav{
+    height: 100%;
+    width: 50%;
+    background-color: #47f40296;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#r-nav{
+    padding: 10px 80px;
+}
+#l-nav h4{
+    font-weight: 500;
+}
+#cover{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: -100%;
+}
+#center{
+    height: calc(130vh - 8vh);
+    width: 100%;
+    position: relative;
+    background-image: url(https://cdn.olaelectric.com/ev-discovery-platform/s1-images/s1_pro_banner_web_image_060623.webp);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+#center .text{
+    text-align: center;
+    margin-top: 30vh;
+    position: absolute;
+    z-index: 9;
+    background-color: rgb(179, 179, 47);
+}
